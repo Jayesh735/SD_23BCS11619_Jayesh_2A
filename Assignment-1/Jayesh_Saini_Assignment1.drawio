@@ -1,0 +1,125 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="qJCsXuuIBq4Rs1zZ9BW1">
+    <mxGraphModel dx="2135" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ECOCq5BmnYw9ojACtYct-24" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="1320" width="1210" x="-760" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-2" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Client/User Interface" vertex="1">
+          <mxGeometry height="114.78260869565219" width="330" x="440.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-3" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Payment Controller" vertex="1">
+          <mxGeometry height="114.78260869565219" width="330" x="440.00000000000006" y="229.56521739130437" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-4" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Payment Service" vertex="1">
+          <mxGeometry height="114.78260869565219" width="330" x="440.00000000000006" y="459.13043478260875" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-5" parent="ECOCq5BmnYw9ojACtYct-24" style="shape=umlInterface;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;Payment" vertex="1">
+          <mxGeometry height="95.65217391304348" width="220.00000000000003" x="495" y="688.6956521739131" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-6" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="CreditCardPayment" vertex="1">
+          <mxGeometry height="114.78260869565219" width="264" y="918.2608695652175" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-7" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="UPIPayment" vertex="1">
+          <mxGeometry height="114.78260869565219" width="264" x="472.99999999999994" y="918.2608695652175" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-8" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="NetBankingPayment" vertex="1">
+          <mxGeometry height="114.78260869565219" width="264" x="945.9999999999999" y="918.2608695652175" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-9" parent="ECOCq5BmnYw9ojACtYct-24" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="External Bank/Payment Gateway" vertex="1">
+          <mxGeometry height="114.78260869565219" width="550" x="330" y="1205.217391304348" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-10" parent="ECOCq5BmnYw9ojACtYct-24" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Payment Database" vertex="1">
+          <mxGeometry height="114.78260869565219" width="220.00000000000003" x="990" y="459.13043478260875" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-11" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ECOCq5BmnYw9ojACtYct-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="114.78260869565219" as="sourcePoint" />
+            <mxPoint x="605" y="229.56521739130437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-12" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ECOCq5BmnYw9ojACtYct-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="344.34782608695656" as="sourcePoint" />
+            <mxPoint x="605" y="459.13043478260875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-13" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ECOCq5BmnYw9ojACtYct-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="573.9130434782609" as="sourcePoint" />
+            <mxPoint x="605" y="688.6956521739131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-14" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-6" style="endArrow=block;endFill=0;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="ECOCq5BmnYw9ojACtYct-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="841.7391304347826" />
+              <mxPoint x="605" y="841.7391304347826" />
+            </Array>
+            <mxPoint x="132" y="918.2608695652175" as="sourcePoint" />
+            <mxPoint x="605" y="784.3478260869565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-15" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-7" style="endArrow=block;endFill=0;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="ECOCq5BmnYw9ojACtYct-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="918.2608695652175" as="sourcePoint" />
+            <mxPoint x="605" y="784.3478260869565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-16" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-8" style="endArrow=block;endFill=0;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="ECOCq5BmnYw9ojACtYct-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="841.7391304347826" />
+              <mxPoint x="605" y="841.7391304347826" />
+            </Array>
+            <mxPoint x="1078" y="918.2608695652175" as="sourcePoint" />
+            <mxPoint x="605" y="784.3478260869565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-17" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" target="ECOCq5BmnYw9ojACtYct-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="1128.6956521739132" />
+              <mxPoint x="440.00000000000006" y="1128.6956521739132" />
+            </Array>
+            <mxPoint x="132" y="1033.0434782608697" as="sourcePoint" />
+            <mxPoint x="440.00000000000006" y="1205.217391304348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-18" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ECOCq5BmnYw9ojACtYct-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605" y="1033.0434782608697" as="sourcePoint" />
+            <mxPoint x="605" y="1205.217391304348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-19" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.8;entryY=0;" target="ECOCq5BmnYw9ojACtYct-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="1128.6956521739132" />
+              <mxPoint x="770" y="1128.6956521739132" />
+            </Array>
+            <mxPoint x="1078" y="1033.0434782608697" as="sourcePoint" />
+            <mxPoint x="770" y="1205.217391304348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-20" edge="1" parent="ECOCq5BmnYw9ojACtYct-24" source="ECOCq5BmnYw9ojACtYct-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="ECOCq5BmnYw9ojACtYct-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="516.5217391304349" as="sourcePoint" />
+            <mxPoint x="990" y="516.5217391304349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;rotation=0;" value="&lt;p&gt;&lt;/p&gt;&lt;h1&gt;Q3. Design a High-Level Design (HLD) for a Payment Processing System showing where interfaces are used.&lt;/h1&gt;&lt;h2&gt;&lt;strong&gt;1. Problem Statement&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;Design a High-Level Architecture for a &lt;strong&gt;Payment Processing System&lt;/strong&gt; that supports multiple payment methods and demonstrates the use of &lt;strong&gt;interfaces&lt;/strong&gt; to achieve loose coupling, scalability, and maintainability.&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;2. Functional Requirements (FR)&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The system should fulfill the following functional requirements:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;User should be able to initiate a payment&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;System should support multiple payment methods such as:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Credit Card&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UPI&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Net Banking&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;System should validate payment details&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;System should process payment through an external payment gateway or bank&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;System should store transaction details securely&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;System should return payment status (success/failure) to the user&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;3. Non-Functional Requirements (NFR)&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Scalability&lt;/strong&gt; – New payment methods should be added without major changes&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Availability&lt;/strong&gt; – System should be accessible 24×7&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt; – Payment information must be protected&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt; – Payment processing should be fast&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Maintainability&lt;/strong&gt; – Changes in one module should not affect others&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Reliability&lt;/strong&gt; – System should handle payment failures gracefully&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;4. Assumptions&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;External bank or payment gateway is available&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Network connectivity is stable&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;User authentication is handled separately&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;5. Identification of Major Components&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;Based on the requirements, the following components are identified:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;Client / User Interface&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment Controller&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment Service&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Payment Interface&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment Method Implementations&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;External Bank / Payment Gateway&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment Database&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;6. Use of Interface in the System&lt;/strong&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Payment Interface&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;The Payment Interface defines a common contract for all payment types.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Declares common payment operation&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Enables loose coupling between service and implementation&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Supports extension of new payment methods&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Example (Conceptual):&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Payment&lt;br&gt;+ processPayment(amount)&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;strong&gt;7. Payment Method Implementations&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The following classes implement the Payment interface:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;CreditCardPayment&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UPIPayment&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;NetBankingPayment&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Each class contains its own payment-specific logic but follows the same interface contract.&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;8. High-Level Architecture Diagram&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;9. High-Level Data Flow&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;User initiates payment from client interface&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment request is received by Payment Controller&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Controller forwards request to Payment Service&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment Service calls the Payment interface&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Appropriate payment implementation is executed&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Transaction is processed via external bank/gateway&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Payment status is stored in the database&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Response is sent back to the user&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;10. Role of Interface in Achieving Loose Coupling&lt;/strong&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Payment Service depends only on the &lt;strong&gt;Payment interface&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Concrete payment classes are interchangeable&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;New payment methods can be added without modifying existing business logic&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Follows &lt;strong&gt;Open–Closed Principle&lt;/strong&gt; and &lt;strong&gt;Dependency Inversion Principle&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;&lt;strong&gt;11. Advantages of This HLD&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;Loose coupling between components&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Easy extensibility of payment methods&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Better maintainability and readability&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Scalable and real-world applicable design&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;&lt;strong&gt;12. Conclusion&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The proposed High-Level Design of the Payment Processing System uses &lt;strong&gt;interfaces at the payment abstraction layer&lt;/strong&gt; to ensure loose coupling and flexibility. By first identifying functional and non-functional requirements and then designing components around interfaces, the system becomes scalable, maintainable, and suitable for real-world applications.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="1100" x="-580" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="-670" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="ECOCq5BmnYw9ojACtYct-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=32;" value="&lt;font&gt;Assignment-01&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Name: Jayesh Saini&lt;br&gt;UID: 23BCS11619&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="615" x="-470" y="-1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
